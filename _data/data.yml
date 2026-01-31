@@ -14,7 +14,7 @@ sidebar:
 
   # Sidebar links
   email: jisookson@utexas.edu
-  phone: 512 786 2986
+  phone:
   timezone: America/Austin # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: 
@@ -49,15 +49,15 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
+    - item: Hiking
       link:
 
 
     - item: Cooking
+      link:
+
+
+    - item: 
       link:
 
 
