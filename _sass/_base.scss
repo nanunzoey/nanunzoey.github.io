@@ -295,6 +295,7 @@ p {
     height: 10px;
     background: lighten($theme-color, 10%) !important;
     border-radius: 5px;
+    width: 0;
     transition: width 0.6s ease-in-out;
   }
   .group-divider {
