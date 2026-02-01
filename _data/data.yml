@@ -86,7 +86,7 @@ education:
 certifications:
   title: Projects
   list:
-  - name: **Debiasing Pre-trained Language Models for QA Task**
+  - name: Debiasing Pre-trained Language Models for QA Task
     start: Sep
     end: Dec 2025
     organization: 2025 Fall Coursework (Natural Language Processing)
@@ -97,7 +97,7 @@ certifications:
       - Developed a Bias-Aware Mixture-of-Experts framework to mitigate "answer existence bias" in QA tasks. The system integrates a TF-IDF-based bias-only model with a robust answerability classifier. To enhance reasoning, I implemented a custom multi-task loss function that synchronizes span extraction with answerability classification, forcing the model to distinguish between genuine comprehension and dataset artifacts.
       - **Outcome**: Improved Exact Match(EM) score from 57.8% to 64.4% and significantly enhanced competence performance from 0% to 33.3%. Beyond metrics, the framework enhanced the model's overall logical reasoning consistency by preventing "easy-way-out" shortcuts.
       
-  - name: **LLM-as-a-Judge for Medical Triage & Consultation**
+  - name: LLM-as-a-Judge for Medical Triage & Consultation
     start: Jun
     end: Aug 2025
     organization: 2025 Summer Coursework (AI in Healthcare)
@@ -108,7 +108,7 @@ certifications:
       - Engineered a human-centric medical consultation system using LLMs to perform medical triage and hospital recommendations. To bridge the gap between subjective symptoms and objective clinical action, I introduced a numerical severity scoring strategy and an iterative feedback loop. The system utilizes the Google Maps API to provide location-based, actionable recommendations when professional medical intervention is required.
       - **Outcome**: Established a rigorous evaluation framework based on four human-centric pillars: Reasoning Coherence, Clinical Appropriateness, Transparency, and Responsiveness. The system successfully transformed ambiguous patient inputs into structured, reliable medical next-steps with high clinical alignment. In addition, implemented Chain-of-Thought prompting to provide step-by-step medical reasoning to the user, ensuring the "Why" behind a triage decision is transparent and verifiable by medical professionals.
       
-  - name: **Computer Vision based Structural Defect Detection System**
+  - name: Computer Vision based Structural Defect Detection System
     start: Apr 2022
     end: Dec 2025
     organization: DL E&C
