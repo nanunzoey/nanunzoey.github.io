@@ -117,43 +117,39 @@ experiences:
       - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
       - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
 
-projects:
+certifications:
   title: Projects
-  info:
-  - role: NLP
-    time: Jan 2026 - Present
-    company: Modulabs
+  list:
+  - name: NLP
+    start: Jan 2026
+    end: Present
+    organization: Modulabs
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
       - Key Contributions: ddd
-      - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
-      - Outcome: ddd.
-      
-  - role: Defect
-    time: Apr 2022 - Dec 2025
-    company: project name | DL E&C
+      - Outcome: ddd
+  - name: Defect
+    start: Jan 2026
+    end: Present
+    organization: Modulabs
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      - Core Focus: Developing applied AI solutions to digitize and optimize physical construction processes.
-      - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
-      - Addressed the "trust gap" by designing explainable AI features, resulting in increased adoption of AI tools by field engineers and stakeholders.
-      - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
-      
-  - role: Product Operations Manager
-    time: Mar 2020 - Mar 2021
-    company: Plannery(Kurly), Seoul
+      - Key Contributions: ddd
+      - Outcome: ddd
+  - name: Defect
+    start: Jan 2026
+    end: Present
+    organization: Modulabs
+    credentialid: 
+    credentialurl: 
+    credentialname: 
     details: |
-      - Core Focus: Scaling product efficiency and aligning technical roadmaps with operational realities.
-      - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
-      - Managed cross-functional projects to ensure the product met user requirements while maintaining technical feasibility.
-      - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
-      
-  - role: Researcher
-    time: Sep 2018 - Feb 2020
-    company: Smart City National Pilot Project Sejong 5-1, Seoul
-    details: |
-      - Core Focus: Strategic planning and research for a national-scale Smart City initiative.
-      - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
-      - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
-      - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
+      - Key Contributions: ddd
+      - Outcome: ddd
 
 publications:
   title: Talks & Presentations
