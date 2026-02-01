@@ -63,9 +63,9 @@ career-profile:
   title: Research Interests
   summary: |
     Guided by four years of AI R&D experience in the construction industry, my research focuses on bridging the "trust gap" and overcoming physical-hardware constraints to implement Trustworthy AI, especially in the Physical World. I aim to transcend digital boundaries by developing AI solutions that are both technologically advanced and physically viable.
-    - Trustworthy AI for High-Uncertainty Environments: Developing robust, reliable systems for complex physical environments.
-    - Human-Centric Adoption & Explainability: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
-    - Hardware-Software Co-optimization: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
+    - **Trustworthy AI for High-Uncertainty Environments**: Developing robust, reliable systems for complex physical environments.
+    - **Human-Centric Adoption & Explainability**: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
+    - **Hardware-Software Co-optimization**: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
 education:
   title: Education
   info:
@@ -120,36 +120,38 @@ experiences:
 certifications:
   title: Projects
   list:
-  - name: NLP
-    start: Jan 2026
-    end: Present
-    organization: Modulabs
+  - name: Debiasing Pre-trained Language Models for QA Tasks
+    start: Sep
+    end: Dec 2025
+    organization: 2025 Fall Coursework (Natural Language Processing)
     credentialid: 
     credentialurl: 
     credentialname: 
     details: |
-      - Key Contributions: ddd
-      - Outcome: ddd
-  - name: Defect
-    start: Jan 2026
-    end: Present
-    organization: Modulabs
+      - Developed a Bias-Aware Mixture-of-Experts framework to mitigate "answer existence bias" in QA tasks. The system integrates a TF-IDF-based bias-only model with a robust answerability classifier. To enhance reasoning, I implemented a custom multi-task loss function that synchronizes span extraction with answerability classification, forcing the model to distinguish between genuine comprehension and dataset artifacts.
+      - Outcome: Improved Exact Match(EM) score from 57.8% to 64.4% and significantly enhanced competence performance from 0% to 33.3%. Beyond metrics, the framework enhanced the model's overall logical reasoning consistency by preventing "easy-way-out" shortcuts.
+      
+  - name: LLM-as-a-Judge for Medical Triage & Consultation
+    start: Jun
+    end: Aug 2025
+    organization: 2025 Summer Coursework (AI in Healthcare)
     credentialid: 
     credentialurl: 
     credentialname: 
     details: |
-      - Key Contributions: ddd
-      - Outcome: ddd
-  - name: Defect
-    start: Jan 2026
-    end: Present
-    organization: Modulabs
+      - Engineered a human-centric medical consultation system using LLMs to perform medical triage and hospital recommendations. To bridge the gap between subjective symptoms and objective clinical action, I introduced a numerical severity scoring strategy and an iterative feedback loop. The system utilizes the Google Maps API to provide location-based, actionable recommendations when professional medical intervention is required.
+      - Outcome: Established a rigorous evaluation framework based on four human-centric pillars: Reasoning Coherence, Clinical Appropriateness, Transparency, and Responsiveness. The system successfully transformed ambiguous patient inputs into structured, reliable medical next-steps with high clinical alignment. In addition, implemented Chain-of-Thought prompting to provide step-by-step medical reasoning to the user, ensuring the "Why" behind a triage decision is transparent and verifiable by medical professionals.
+      
+  - name: Computer Vision based Structural Defect Detection for AEC Industry
+    start: Apr 2022
+    end: Dec 2025
+    organization: DL E&C
     credentialid: 
     credentialurl: 
     credentialname: 
     details: |
-      - Key Contributions: ddd
-      - Outcome: ddd
+      - Developed an automated structural health monitoring solution using Object Detection and Semantic Segmentation on high-resolution drone imagery. The model is trained to identify complex defects in concrete structures, including cracks, efflorescence, rebar corrosion (rust stains), spalling, and missing window silicone caulking.
+      - Outcome: Automated the labor-intensive inspection process, providing precise localization and quantification of defects. This solution enables data-driven maintenance scheduling and enhances the long-term safety of large-scale civil infrastructure. Utilized Grad-CAM (Gradient-weighted Class Activation Mapping) to generate heatmaps, allowing inspectors to see exactly which visual features led the AI to flag a defect, thereby increasing user trust in automated reports.
 
 publications:
   title: Talks & Presentations
@@ -170,16 +172,16 @@ skills:
 
   toolset:
   - name: Python
-    level: 85%
-
-  - name: Data Science(NumPy, Pandas, Scipy, Matplotlib, Seaborn)
     level: 90%
 
-  - name: ML Framework(PyTorch)
+  - name: Data Science (NumPy, Pandas, Scipy, Matplotlib, Seaborn)
+    level: 90%
+
+  - name: ML Framework (PyTorch)
     level: 80%
 
   - name: SQL
-    level: 70%
+    level: 90%
 
   - name: JavaScript
     level: 50%
