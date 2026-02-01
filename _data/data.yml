@@ -63,12 +63,12 @@ career-profile:
   title: Research Interests
   summary: |
   Guided by four years of AI R&D experience in the construction industry, my research focuses on bridging the "trust gap" and overcoming physical-hardware constraints to implement Trustworthy AI, especially in the Physical World. I aim to transcend digital boundaries by developing AI solutions that are both technologically advanced and physically viable.
-  - Trustworthy AI for High-Uncertainty Environments: Developing robust, reliable systems for complex physical environments.
-  - Human-Centric Adoption & Explainability: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
-  - Hardware-Software Co-optimization: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
+    - Trustworthy AI for High-Uncertainty Environments: Developing robust, reliable systems for complex physical environments.
+    - Human-Centric Adoption & Explainability: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
+    - Hardware-Software Co-optimization: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
 education:
   title: Education
-  info: |
+  info:
   - degree: MSc in Artificial Intelligence
     university: University of Texas at Austin
     time: Jan 2024 - Present
@@ -84,7 +84,7 @@ education:
 
 experiences:
   title: Experience
-  info: |
+  info:
   - role: Researcher (Volunteer)
     time: Jan 2026 - Present
     company: Modulabs, Seoul (Remote)
@@ -119,7 +119,7 @@ experiences:
 
 experiences:
   title: Projects
-  info: |
+  info:
   - role: NLP
     time: Jan 2026 - Present
     company: Modulabs
@@ -157,7 +157,7 @@ experiences:
 
 publications:
   title: Talks & Presentations
-  intro: |
+  intro:
   papers:
   - title: AI Applications in Construction Industry
     link: "https://youtu.be/s_1W3EE5Xjo?si=Uzot7O5o9gmQq8BT"
