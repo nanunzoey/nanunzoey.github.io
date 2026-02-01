@@ -73,13 +73,13 @@ education:
     university: University of Texas at Austin
     time: Jan 2024 - Present
     details: |
-        - GPA: 3.83/4.0
+        - GPA: 3.83 / 4.0
         - Relevant Coursework ("A" Grades): Ethics in AI, Deep Learning, Advances in Deep Learning, AI in Healthcare
   - degree: BSc in Architectural Engineering
     university: Ewha Womans University
     time: Mar 2010 - Aug 2015
     details: |
-        - GPA: 4.04/4.5
+        - GPA: 4.04 / 4.5
         - Relevant Coursework ("A" Grades): Advanced Computer Programming
 
 experiences:
@@ -117,7 +117,7 @@ experiences:
       - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
       - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
 
-experiences:
+projects:
   title: Projects
   info:
   - role: NLP
