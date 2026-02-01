@@ -81,41 +81,7 @@ education:
     details: |
         - GPA: 4.04 / 4.5
         - Relevant Coursework ("A" Grades): Advanced Computer Programming
-
-experiences:
-  title: Experience
-  info:
-  - role: Researcher (Volunteer)
-    time: Jan 2026 - Present
-    company: Modulabs, Seoul (Remote)
-    details: |
-      - **Core Focus**: Exploring the intersection of Large Language Models (LLMs) and embodied AI for humanoid robotic control.
-      - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
-      - To implement AI algorithms to simulate and test robotic perception and motion planning in high-uncertainty environments.
-  - role: AI R&D Engineer
-    time: Apr 2022 - Dec 2025
-    company: DL E&C, Seoul
-    details: |
-      - **Core Focus**: Developing applied AI solutions to digitize and optimize physical construction processes.
-      - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
-      - Addressed the "trust gap" by designing explainable AI features, resulting in increased adoption of AI tools by field engineers and stakeholders.
-      - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
-  - role: Product Operations Manager
-    time: Mar 2020 - Mar 2021
-    company: Plannery(Kurly), Seoul
-    details: |
-      - **Core Focus**: Scaling product efficiency and aligning technical roadmaps with operational realities.
-      - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
-      - Managed cross-functional projects to ensure the product met user requirements while maintaining technical feasibility.
-      - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
-  - role: Researcher
-    time: Sep 2018 - Feb 2020
-    company: Smart City National Pilot Project Sejong 5-1, Seoul
-    details: |
-      - **Core Focus**: Strategic planning and research for a national-scale Smart City initiative.
-      - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
-      - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
-      - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
+        
 
 certifications:
   title: Projects
@@ -152,6 +118,43 @@ certifications:
     details: |
       - Developed an automated structural health monitoring solution using Object Detection and Semantic Segmentation on high-resolution drone imagery. The model is trained to identify complex defects in concrete structures, including cracks, efflorescence, rebar corrosion (rust stains), spalling, and missing window silicone caulking.
       - **Outcome**: Automated the labor-intensive inspection process, providing precise localization and quantification of defects. This solution enables data-driven maintenance scheduling and enhances the long-term safety of large-scale civil infrastructure. Utilized Grad-CAM (Gradient-weighted Class Activation Mapping) to generate heatmaps, allowing inspectors to see exactly which visual features led the AI to flag a defect, thereby increasing user trust in automated reports.
+
+
+experiences:
+  title: Experience
+  info:
+  - role: Researcher (Volunteer)
+    time: Jan 2026 - Present
+    company: Modulabs, Seoul (Remote)
+    details: |
+      - **Core Focus**: Exploring the intersection of Large Language Models (LLMs) and embodied AI for humanoid robotic control.
+      - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
+      - To implement AI algorithms to simulate and test robotic perception and motion planning in high-uncertainty environments.
+  - role: AI R&D Engineer
+    time: Apr 2022 - Dec 2025
+    company: DL E&C, Seoul
+    details: |
+      - **Core Focus**: Developing applied AI solutions to digitize and optimize physical construction processes.
+      - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
+      - Addressed the "trust gap" by designing explainable AI features, resulting in increased adoption of AI tools by field engineers and stakeholders.
+      - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
+  - role: Product Operations Manager
+    time: Mar 2020 - Mar 2021
+    company: Plannery(Kurly), Seoul
+    details: |
+      - **Core Focus**: Scaling product efficiency and aligning technical roadmaps with operational realities.
+      - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
+      - Managed cross-functional projects to ensure the product met user requirements while maintaining technical feasibility.
+      - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
+  - role: Researcher
+    time: Sep 2018 - Feb 2020
+    company: Smart City National Pilot Project Sejong 5-1, Seoul
+    details: |
+      - **Core Focus**: Strategic planning and research for a national-scale Smart City initiative.
+      - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
+      - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
+      - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
+
 
 publications:
   title: Talks & Presentations
