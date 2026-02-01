@@ -86,43 +86,37 @@ education:
 experiences:
   title: Experience
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Researcher (Volunteer)
+    time: Jan 2026 - Present
+    company: Modulabs, Seoul (Remote)
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      - Core Focus: Exploring the intersection of Large Language Models (LLMs) and embodied AI for humanoid robotic control.
+      - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
+      - To implement AI algorithms to simulate and test robotic perception and motion planning in high-uncertainty environments.
+  - role: AI R&D Engineer
+    time: Apr 2022 - Dec 2025
+    company: DL E&C, Seoul
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      - Core Focus: Developing applied AI solutions to digitize and optimize physical construction processes.
+      - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
+      - Addressed the "trust gap" by designing explainable AI features, resulting in increased adoption of AI tools by field engineers and stakeholders.
+      - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
+  - role: Product Operations Manager
+    time: Mar 2020 - Mar 2021
+    company: Plannery(Kurly), Seoul
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      - Core Focus: Scaling product efficiency and aligning technical roadmaps with operational realities.
+      - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
+      - Managed cross-functional projects to ensure the product met user requirements while maintaining technical feasibility.
+      - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
+  - role: Researcher
+    time: Sep 2018 - Feb 2020
+    company: Smart City National Pilot Project Sejong 5-1, Seoul
+    details: |
+      - Core Focus: Strategic planning and research for a national-scale Smart City initiative.
+      - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
+      - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
+      - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
 
 projects:
   title: Projects
@@ -151,10 +145,7 @@ projects:
 
 publications:
   title: Talks & Presentations
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+  intro:
   papers:
   - title: AI Applications in Construction Industry
     link: "https://youtu.be/s_1W3EE5Xjo?si=Uzot7O5o9gmQq8BT"
