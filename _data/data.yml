@@ -4,12 +4,12 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Jisook Son
-  tagline: AI Research Engineer
+  tagline: AI Research & Development Engineer
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -49,27 +49,22 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Hiking
+    - item: Psychology
       link:
-
-
+      
     - item: Cooking
       link:
 
-
-    - item: 
+    - item: Hiking
       link:
-
 
 career-profile:
   title: Research Interests
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    - Trustworthy AI in the Physical World: Developing robust and reliable AI systems that can be deployed in complex, high-uncertainty physical environments such as construction sites and industrial facilities.
+    - Human-Centric AI Adoption: Investigating methods to enhance user trust and explainability of AI-driven technologies to facilitate seamless integration into traditional industries.
+    - Hardware-Software Co-optimization: Bridging the gap between AI software potential and hardware/physical constraints to ensure practical and scalable real-world applications.
+    - Industrial Innovation through AI R&D: Leveraging AI to drive digital transformation and structural innovation in various industries.
 education:
   title: Education
   info:
@@ -203,66 +198,41 @@ projects:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
-  title: Publications
+  title: Talks & Presentations
   intro: |
     You can list your publications in this section. Lorem ipsum dolor sit
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+  - title: AI Applications in Construction Industry
+    link: "https://youtu.be/s_1W3EE5Xjo?si=Uzot7O5o9gmQq8BT"
+    authors: DL E&C
+    conference: "Brief introduction to Machine Learning and Deep Learning, AI-based solutions applied at Construction sites"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  - title: "Documentary: Cuting-edge Smart Construction Technologies"
+    link: "https://youtu.be/pG3-hvgoZFs?si=rhCpQnFCH-M6rc1a"
+    authors: DL E&C
+    conference: "Deep Learning based Defect Detection Solution"
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - name: Python
+    level: 80%
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
+  - name: SQL
+    level: 70%
 
   - name: HTML5 & CSS
-    level: 95%
+    level: 80%
 
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
+  - name: JavaScript
     level: 60%
+
+  - name: C#
+    level: 40%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
