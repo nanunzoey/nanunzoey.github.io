@@ -62,14 +62,13 @@ sidebar:
 career-profile:
   title: Research Interests
   summary: |
-  Guided by four years of AI R&D experience in the construction industry, my research focuses on bridging the "trust gap" and overcoming physical-hardware constraints to implement Trustworthy AI, especially in the Physical World.
-  I aim to transcend digital boundaries by developing AI solutions that are both technologically advanced and physically viable.
+  Guided by four years of AI R&D experience in the construction industry, my research focuses on bridging the "trust gap" and overcoming physical-hardware constraints to implement Trustworthy AI, especially in the Physical World. I aim to transcend digital boundaries by developing AI solutions that are both technologically advanced and physically viable.
   - Trustworthy AI for High-Uncertainty Environments: Developing robust, reliable systems for complex physical environments.
   - Human-Centric Adoption & Explainability: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
   - Hardware-Software Co-optimization: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
 education:
   title: Education
-  info:
+  info: |
   - degree: MSc in Artificial Intelligence
     university: University of Texas at Austin
     time: Jan 2024 - Present
@@ -85,7 +84,7 @@ education:
 
 experiences:
   title: Experience
-  info:
+  info: |
   - role: Researcher (Volunteer)
     time: Jan 2026 - Present
     company: Modulabs, Seoul (Remote)
@@ -118,34 +117,47 @@ experiences:
       - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
       - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
 
-projects:
+experiences:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  info: |
+  - role: NLP
+    time: Jan 2026 - Present
+    company: Modulabs
+    details: |
+      - Key Contributions: ddd
+      - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
+      - Outcome: ddd.
+      
+  - role: Defect
+    time: Apr 2022 - Dec 2025
+    company: project name | DL E&C
+    details: |
+      - Core Focus: Developing applied AI solutions to digitize and optimize physical construction processes.
+      - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
+      - Addressed the "trust gap" by designing explainable AI features, resulting in increased adoption of AI tools by field engineers and stakeholders.
+      - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
+      
+  - role: Product Operations Manager
+    time: Mar 2020 - Mar 2021
+    company: Plannery(Kurly), Seoul
+    details: |
+      - Core Focus: Scaling product efficiency and aligning technical roadmaps with operational realities.
+      - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
+      - Managed cross-functional projects to ensure the product met user requirements while maintaining technical feasibility.
+      - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
+      
+  - role: Researcher
+    time: Sep 2018 - Feb 2020
+    company: Smart City National Pilot Project Sejong 5-1, Seoul
+    details: |
+      - Core Focus: Strategic planning and research for a national-scale Smart City initiative.
+      - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
+      - Authored research reports and policy recommendations to facilitate the adoption of emerging technologies in the public sector.
+      - Collaborated with diverse stakeholders, including government officials and private contractors, to align project goals with urban sustainability targets.
 
 publications:
   title: Talks & Presentations
-  intro:
+  intro: |
   papers:
   - title: AI Applications in Construction Industry
     link: "https://youtu.be/s_1W3EE5Xjo?si=Uzot7O5o9gmQq8BT"
