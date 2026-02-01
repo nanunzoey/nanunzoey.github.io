@@ -265,22 +265,44 @@ p {
 }
 
 .skillset {
-  .item {
+  .skill-group-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: $theme-color; // 테마 색상 적용
+    margin-top: 25px;
     margin-bottom: 15px;
-    overflow: hidden;
+    border-left: 4px solid $theme-color;
+    padding-left: 10px;
+  }
+  .item {
+    margin-bottom: 20px;
+    padding-right: 15px;
   }
   .level-title {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    color: $text-color;
   }
   .level-bar {
-    height: 12px;
+    height: 10px;
     background: $smoky-white;
+    border-radius: 5px;
+    overflow: hidden;
   }
   .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
+    height: 10px;
+    background: lighten($theme-color, 10%);
+    border-radius: 5px;
+    transition: width 0.6s ease-in-out;
+  }
+  .group-divider {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid lighten($smoky-white, 5%);
+    &:last-child { display: none; } // 마지막 선은 제거
   }
 }
 
