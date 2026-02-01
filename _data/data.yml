@@ -174,23 +174,38 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python
-    level: 90%
+  - title: Programming Languages
+    info:
+    - name: Python (Primary)
+      level: 95%
+    - name: SQL
+      level: 85%
+    - name: JavaScript
+      level: 50%
+    - name: C#
+      level: 30%
 
-  - name: Data Science (NumPy, Pandas, Scipy, Matplotlib, Seaborn)
-    level: 90%
+  - title: AI & Data Science
+    info:
+    - name: Deep Learning (PyTorch)
+      level: 90%
+    - name: Data Analysis (NumPy, Pandas, Scipy)
+      level: 90%
+    - name: Visualization (Matplotlib, Seaborn)
+      level: 90%
 
-  - name: ML Framework (PyTorch)
-    level: 90%
+  - title: Backend Development
+    info:
+    - name: Python Frameworks (FastAPI, Flask, Django)
+      level: 80%  
 
-  - name: SQL
-    level: 85%
+  - title: Cloud & Infrastructure (AWS/DevOps)
+    info:
+    - name: AWS Ecosystem (S3, Lambda, EC2, ECR, Cognito, Route53, API Gateway, Lightsail, etc)
+      level: 80%
+    - name: Containerization (Docker)
+      level: 70%
 
-  - name: JavaScript
-    level: 50%
-
-  - name: C#
-    level: 30%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
