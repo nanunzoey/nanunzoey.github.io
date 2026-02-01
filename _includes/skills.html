@@ -15,7 +15,7 @@
     
       <div class="row">
         {% for skill in group.info %}
-        <div class="item col-12 col-md-6"> <h4 class="level-title">{{ skill.name }}</h4>
+        <div class="item col-12"> <h4 class="level-title">{{ skill.name }}</h4>
           <div class="level-bar">
             {% assign skill_level = 'width: ' | append: skill.level %}
             <div class="level-bar-innter" style="{{skill_level}}"></div>
