@@ -1,63 +1,53 @@
-/* Extra small devices (phones, less than 768px) */
+/* --- 기본 레이아웃 유지 --- */
 @media (max-width: 767px) {
-  body {
-    padding: 0;
-  }
-
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-
-  .wrapper {
-    display: block;
-  }
-
-  .main-wrapper {
-    padding: 30px;
-  }
-
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+  body { padding: 0; }
+  .sidebar-wrapper { position: static; width: inherit; }
+  .wrapper { display: block; }
+  .main-wrapper { padding: 30px; }
+  .main-wrapper .time { position: static; display: block; margin-top: 5px; }
+  .main-wrapper .upper-row { margin-bottom: 0; }
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .skillset .level-title {
-    float: none;
-    width: 100%;
-    margin-bottom: 10;
-  }
-
-  .skillset .level-bar {
-    width: 100%;
-    float: none;
-    position: relative;
-    top: 0px;
-  }
+/* --- Skillset 정렬 문제 해결 (핵심) --- */
+.skillset .item {
+  clear: both;      /* float 해제 */
+  display: block;   /* 블록 요소로 강제 */
+  width: 100%;      /* 전체 너비 사용 */
+  margin-bottom: 20px;
 }
 
+.skillset .level-title {
+  display: block;   /* 제목을 한 줄 전체 차지하게 */
+  float: none !important;
+  width: 100% !important;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.skillset .level-bar {
+  display: block;   /* 바를 한 줄 전체 차지하게 */
+  float: none !important;
+  width: 100% !important;
+  clear: both;
+}
+
+/* --- 레벨 바 애니메이션 및 퍼센티지 표현 --- */
 .skillset .level-bar-inner {
-  -webkit-transition: width 2s ease-in-out;
-  -moz-transition: width 2s ease-in-out;
-  -o-transition: width 2s ease-in-out;
-  transition: width 2s ease-in-out;
+  height: 100%;
+  background: #54B689; /* 혹은 변수 사용 */
+  display: block;
+  -webkit-transition: width 1.5s ease-in-out;
+  -moz-transition: width 1.5s ease-in-out;
+  -o-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
+/* 데스크톱에서 억지로 띄워져 있는 float 값 제거 */
+@media (min-width: 992px) {
+  .skillset .level-title, 
+  .skillset .level-bar {
+    float: none !important;
+    width: 100% !important;
+    position: static;
+  }
 }
