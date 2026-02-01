@@ -33,7 +33,7 @@ sidebar:
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-  youtube: https://youtube.com/@zoeyable?si=LTCleYZXJ-ooPCyR
+  # youtube: https://youtube.com/@zoeyable?si=LTCleYZXJ-ooPCyR
 
   languages:
     title: Languages
