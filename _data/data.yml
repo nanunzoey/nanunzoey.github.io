@@ -108,7 +108,7 @@ certifications:
       - Engineered a human-centric medical consultation system using LLMs to perform medical triage and hospital recommendations. To bridge the gap between subjective symptoms and objective clinical action, I introduced a numerical severity scoring strategy and an iterative feedback loop. The system utilizes the Google Maps API to provide location-based, actionable recommendations when professional medical intervention is required.
       - **Outcome**: Established a rigorous evaluation framework based on four human-centric pillars: Reasoning Coherence, Clinical Appropriateness, Transparency, and Responsiveness. The system successfully transformed ambiguous patient inputs into structured, reliable medical next-steps with high clinical alignment. In addition, implemented Chain-of-Thought prompting to provide step-by-step medical reasoning to the user, ensuring the "Why" behind a triage decision is transparent and verifiable by medical professionals.
       
-  - name: Computer Vision based Structural Defect Detection System
+  - name: Exterior Defect Detection System
     start: Apr 2022
     end: Dec 2025
     organization: DL E&C
@@ -189,6 +189,8 @@ skills:
     info:
     - name: Deep Learning (PyTorch)
       level: 90%
+    - name: Image Processing (OpenCV, PIL)
+      level: 95%
     - name: Data Analysis (NumPy, Pandas, Scipy)
       level: 90%
     - name: Visualization (Matplotlib, Seaborn)
