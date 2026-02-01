@@ -18,12 +18,12 @@
         <div class="item col-12"> <h4 class="level-title">{{ skill.name }}</h4>
           <div class="level-bar">
             {% assign skill_level = 'width: ' | append: skill.level %}
-            <div class="level-bar-innter" style="width: {{ skill_level | escape }};"></div>
+            <div class="level-bar-inner" style="width: {{ skill_level | escape }};"></div>
           </div>
         </div>
         {% endfor %}
       </div>
-      <hr class="group-divdier"> {% endif %}
+      {% endif %}
     {% endfor %}
   </div>
 </section>
