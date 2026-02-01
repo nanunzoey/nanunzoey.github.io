@@ -9,13 +9,13 @@ sidebar:
 
   # Profile information
   name: Jisook Son
-  tagline: AI Research & Development Engineer
+  tagline: AI R&D Engineer
   avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: jisookson@utexas.edu
   phone:
-  timezone: America/Austin # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  timezone: America/Central(Austin) # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship:
   website: 
   linkedin: jisookson
@@ -33,6 +33,7 @@ sidebar:
   hackerrank: # Please provide your HackerRank username.
   leetcode: # Please provide your LeetCode username.
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  youtube: https://youtube.com/@zoeyable?si=LTCleYZXJ-ooPCyR
 
   languages:
     title: Languages
@@ -61,10 +62,11 @@ sidebar:
 career-profile:
   title: Research Interests
   summary: |
-    - Trustworthy AI in the Physical World: Developing robust and reliable AI systems that can be deployed in complex, high-uncertainty physical environments such as construction sites and industrial facilities.
-    - Human-Centric AI Adoption: Investigating methods to enhance user trust and explainability of AI-driven technologies to facilitate seamless integration into traditional industries.
-    - Hardware-Software Co-optimization: Bridging the gap between AI software potential and hardware/physical constraints to ensure practical and scalable real-world applications.
-    - Industrial Innovation through AI R&D: Leveraging AI to drive digital transformation and structural innovation in various industries.
+  Guided by four years of AI R&D experience in the construction industry, my research focuses on bridging the "trust gap" and overcoming physical-hardware constraints to implement Trustworthy AI, especially in the Physical World.
+  I aim to transcend digital boundaries by developing AI solutions that are both technologically advanced and physically viable.
+  - Trustworthy AI for High-Uncertainty Environments: Developing robust, reliable systems for complex physical environments.
+  - Human-Centric Adoption & Explainability: Investigating methods to enhance user trust and facilitate seamless AI integration into traditional, high-stakes industries.
+  - Hardware-Software Co-optimization: Bridging the gap between software potential and physical constraints to ensure scalable, real-world applicability.
 education:
   title: Education
   info:
@@ -72,24 +74,14 @@ education:
     university: University of Texas at Austin
     time: Jan 2024 - Present
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - GPA: 3.83/4.0
+        - Relevant Coursework ("A" Grades): Ethics in AI, Deep Learning, Advances in Deep Learning, AI in Healthcare
   - degree: BSc in Architectural Engineering
     university: Ewha Womans University
     time: Mar 2010 - Aug 2015
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - GPA: 4.04/4.5
+        - Relevant Coursework ("A" Grades): Advanced Computer Programming
 
 experiences:
   title: Experience
@@ -131,47 +123,6 @@ experiences:
       pellentesque eu, pretium quis, sem.
         - Bullet point
         - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
   title: Projects
@@ -220,19 +171,22 @@ skills:
 
   toolset:
   - name: Python
+    level: 85%
+
+  - name: Data Science(NumPy, Pandas, Scipy, Matplotlib, Seaborn)
+    level: 90%
+
+  - name: ML Framework(PyTorch)
     level: 80%
 
   - name: SQL
     level: 70%
 
-  - name: HTML5 & CSS
-    level: 80%
-
   - name: JavaScript
-    level: 60%
+    level: 50%
 
   - name: C#
-    level: 40%
+    level: 30%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
