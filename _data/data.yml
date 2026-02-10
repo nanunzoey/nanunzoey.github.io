@@ -177,7 +177,7 @@ skills:
   - title: Programming Languages
     info:
     - name: Python (Primary)
-      level: 95%
+      level: 90%
     - name: SQL
       level: 85%
     - name: JavaScript
@@ -204,9 +204,9 @@ skills:
   - title: Cloud & Infrastructure (AWS/DevOps)
     info:
     - name: AWS Ecosystem (S3, Lambda, EC2, ECR, Cognito, Route53, API Gateway, Lightsail, etc)
-      level: 80%
-    - name: Containerization (Docker)
       level: 70%
+    - name: Containerization (Docker)
+      level: 60%
 
 
 footer: >
