@@ -125,14 +125,14 @@ experiences:
   info:
   - role: Researcher (Volunteer / Part-time)
     time: Jan 2026 - Present
-    company: Modulabs, Seoul (Remote)
+    company: Modulabs (AI Research Community, Remote)
     details: |
       - **Core Focus**: Exploring the intersection of Large Language Models (LLMs) and embodied AI for humanoid robotic control.
       - To conduct in-depth literature reviews on state-of-the-art papers regarding robot-environment interaction and trustworthy decision-making.
       - To implement AI algorithms to simulate and test robotic perception and motion planning in high-uncertainty environments.
   - role: AI R&D Engineer
     time: Apr 2022 - Dec 2025
-    company: DL E&C, Seoul
+    company: DL E&C (General Contractor, Seoul)
     details: |
       - **Core Focus**: Developing applied AI solutions to digitize and optimize physical construction processes.
       - Led the R&D of AI models for site safety and progress monitoring, bridging the gap between digital software and on-site hardware constraints.
@@ -140,7 +140,7 @@ experiences:
       - Optimized hardware-software integration for real-time data processing in rugged, high-stakes environments.
   - role: Product Operations Manager
     time: Mar 2020 - Mar 2021
-    company: Plannery(Kurly), Seoul
+    company: Plannery(Kurly) (Startup, Seoul)
     details: |
       - **Core Focus**: Scaling product efficiency and aligning technical roadmaps with operational realities.
       - Streamlined internal workflows between the engineering and business teams to accelerate product release cycles.
@@ -148,7 +148,7 @@ experiences:
       - Analyzed user feedback data to define key product improvements and drive strategic decision-making.
   - role: Researcher
     time: Sep 2018 - Feb 2020
-    company: Smart City National Pilot Project Sejong 5-1, Seoul
+    company: Smart City National Pilot Project Sejong 5-1 (Government Agency, Seoul)
     details: |
       - **Core Focus**: Strategic planning and research for a national-scale Smart City initiative.
       - Designed the conceptual framework for smart urban infrastructure, focusing on the integration of IoT data and citizen-centric services.
