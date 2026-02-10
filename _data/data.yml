@@ -76,7 +76,7 @@ education:
         - GPA: 3.83 / 4.0
         - Relevant Coursework ("A" Grades): Ethics in AI, Deep Learning, Advances in Deep Learning, AI in Healthcare
   - degree: BSc in Architectural Engineering
-    university: Ewha Womans University
+    university: Ewha Womans University (Seoul, South Korea)
     time: Mar 2010 - Aug 2015
     details: |
         - GPA: 4.04 / 4.5
@@ -111,7 +111,7 @@ certifications:
   - name: Exterior Defect Detection System
     start: Apr 2022
     end: Dec 2025
-    organization: DL E&C
+    organization: DL E&C (General Contractor, Seoul)
     credentialid: 
     credentialurl: 
     credentialname: 
@@ -162,12 +162,12 @@ publications:
   papers:
   - title: AI Applications in Construction Industry
     link: "https://youtu.be/s_1W3EE5Xjo?si=Uzot7O5o9gmQq8BT"
-    authors: DL E&C
+    authors: DL E&C (General Contractor, Seoul)
     conference: "Brief introduction to Machine Learning and Deep Learning, AI-based solutions applied at Construction sites"
 
   - title: "Documentary: Cuting-edge Smart Construction Technologies"
     link: "https://youtu.be/pG3-hvgoZFs?si=rhCpQnFCH-M6rc1a"
-    authors: DL E&C
+    authors: DL E&C (General Contractor, Seoul)
     conference: "Deep Learning based Defect Detection Solution"
 
 skills:
